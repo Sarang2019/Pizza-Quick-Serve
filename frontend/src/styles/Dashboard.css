@@ -1,0 +1,104 @@
+/* Container styling for the Add/Remove Pizzas section */
+.add-remove-pizzas {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Heading styling */
+  .add-remove-pizzas h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  /* Form styling for adding pizzas */
+  .add-pizza-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  
+  .add-pizza-form input {
+    flex: 1;
+    margin-right: 1rem;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .add-pizza-form input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .add-pizza-form button {
+    padding: 0.75rem 1.5rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-pizza-form button:hover {
+    background-color: #218838;
+  }
+  
+  /* Pizza list styling */
+  .pizza-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pizza-list li {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .pizza-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .pizza-list button {
+    padding: 0.5rem 1rem;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pizza-list button:hover {
+    background-color: #ff1a1a;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

@@ -1,0 +1,38 @@
+.dashboard {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .dashboard ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .dashboard ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .dashboard button {
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard button:hover {
+    background-color: #0056b3;
+  }
+  

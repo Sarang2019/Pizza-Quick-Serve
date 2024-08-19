@@ -1,0 +1,72 @@
+/* Login Page Styling */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #4e54c8, #8f94fb); /* Gradient background */
+}
+
+.login-box {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 350px;
+  width: 100%;
+  transform: translateY(-10%);
+  transition: transform 0.3s ease;
+}
+
+.login-box:hover {
+  transform: translateY(0); /* Small animation on hover */
+}
+
+.login-box h2 {
+  margin-bottom: 1.5rem;
+  font-size: 28px;
+  color: #333;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.login-box input:focus {
+  border-color: #6c63ff;
+  outline: none;
+}
+
+.login-box button {
+  padding: 0.5rem 1.2rem;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 24px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 1rem;
+  width: 80%; /* Adjust button width */
+}
+
+.login-box button:hover {
+  background-color: #574b90;
+  transform: scale(1.05);
+}
+
+.signup-button {
+  background-color: #ff6b6b;
+  margin-top: 0.5rem;
+}
+
+.signup-button:hover {
+  background-color: #e63946;
+}

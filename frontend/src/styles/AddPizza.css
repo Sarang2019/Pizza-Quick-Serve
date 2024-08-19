@@ -1,0 +1,115 @@
+/* Container for the Add/Remove Pizzas section */
+.add-pizza-container {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Heading styling */
+  .add-pizza-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  /* Form styling */
+  .pizza-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  
+  .pizza-form input {
+    flex: 1;
+    margin-right: 1rem;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .pizza-form input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .add-pizza-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-pizza-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Pizza list styling */
+  .pizza-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  /* Pizza card styling */
+  .pizza-card {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  }
+  
+  .pizza-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .pizza-card h3 {
+    font-size: 22px;
+    margin-bottom: 1rem;
+  }
+  
+  .pizza-card p {
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+    color: #555;
+  }
+  
+  /* Remove button styling */
+  .remove-pizza-button {
+    padding: 0.5rem 1rem;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-pizza-button:hover {
+    background-color: #ff1a1a;
+  }
+  
+  /* Fade-in animation for all sections */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

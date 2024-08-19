@@ -1,0 +1,183 @@
+/* General Button Styling */
+button {
+  padding: 0.5rem 1.2rem;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Customer Dashboard Styling */
+.customer-dashboard {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 900px;
+  background-color: #f0f4f8;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.dashboard-header h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.logout-button {
+  padding: 0.5rem 1rem;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #ff1a1a;
+}
+
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.dashboard-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.dashboard-link:hover {
+  color: #0056b3;
+}
+
+/* Cart Page Specific Styling */
+.cart {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.cart h2 {
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart li {
+  background-color: #f9f9f9;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart .pizza-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.checkout-button {
+  margin-top: 2rem;
+  padding: 0.5rem 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #0056b3;
+}
+
+/* Order Details Page Styling */
+.order-details {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.order-details h2 {
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.order-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.order-details li {
+  background-color: #f9f9f9;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Back Button Styling for All Pages */
+.back-button {
+  margin-top: 2rem;
+  padding: 0.5rem 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);  /* Subtle hover effect */
+}

@@ -1,0 +1,39 @@
+/* Global styles for the application */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Add padding to the main content */
+  .main-content {
+    padding: 20px;
+  }
+  
